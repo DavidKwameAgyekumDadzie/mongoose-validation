@@ -11,7 +11,7 @@ exports.createPost = async (req, res) => {
   const post = await Post.create({
     title,
     body,
-    pulish,
+    publish,
   });
 
   res.status(201).json({ post });
