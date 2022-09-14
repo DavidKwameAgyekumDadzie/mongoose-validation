@@ -8,6 +8,7 @@ const postSchema = new Schema({
     body:{
          type: String,
          require: true,
+         minLength: ""
     },
     published:{
          type: Boolean,
