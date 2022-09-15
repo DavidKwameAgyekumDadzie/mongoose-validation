@@ -20,4 +20,5 @@ postRouter
   .patch(updatePost)
   .delete(deletePost);
 
-module.exports = { postRouter };
+module.exports = postRouter;
+
